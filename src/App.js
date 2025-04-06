@@ -38,6 +38,7 @@ const App = () => {
         <link rel="stylesheet" href={common.baseURL() + "/libs/fontawesome/css/all.min.css"} />
         <link rel="stylesheet" href={common.baseURL() + "/css/light.css"} />
         <link rel="stylesheet" href={common.baseURL() + "/css/custom.css"} />
+        <base href={common.baseURL()} />
       </Helmet>
       <Provider store={store}>
         <ThemeProvider>
@@ -48,6 +49,7 @@ const App = () => {
           </SidebarProvider>
         </ThemeProvider>
       </Provider>
+
     </HelmetProvider>
   );
 };

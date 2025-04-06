@@ -1,12 +1,12 @@
-const env = 'DEV';
-// const env = 'PRD'
+// const env = 'DEV';
+const env = 'PRD'
 
 /* app version */
 const versionDev = '0.0.1';
 const versionPrd = '0.0.1';
 
 const dev = {
-    BASE_URL: 'https://HengFL.github.io/frontend-assignment',
+    BASE_URL: '/frontend-assignment',
     APP_NAME: 'REACT',
     APP_SHORT_NAME: 'REACT',
     APP_CODE: 'REACT',
@@ -19,7 +19,7 @@ const dev = {
 };
 
 const prd = {
-    BASE_URL: 'https://HengFL.github.io/frontend-assignment',
+    BASE_URL: '/frontend-assignment',
     APP_NAME: 'REACT',
     APP_SHORT_NAME: 'REACT',
     APP_CODE: 'REACT',
