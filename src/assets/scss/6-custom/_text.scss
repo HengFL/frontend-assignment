@@ -1,0 +1,165 @@
+/*#region initail text */
+.text-nowrap {
+  white-space: nowrap !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-pre {
+  white-space: pre-line !important;
+}
+
+.text-code {
+  font-family: monospace !important;
+  font-size: 90%;
+  // color: $color-dark-orange;
+  word-wrap: break-word;
+  // padding: 0;
+  font-weight: bold;
+}
+
+kbd {
+  border-radius: 4px;
+  background-color: $color-dark;
+  color: $color-white !important;
+}
+
+/* #endregion */
+
+/*#region text size */
+.text-layout {
+  @include font-size-layout;
+}
+
+.text-small {
+  @include font-size-small;
+}
+
+.text-extra-small {
+  @include font-size-extra-small;
+}
+
+.text-title {
+  @include font-size-title;
+}
+
+.text-extra-title {
+  @include font-size-extra-title;
+}
+
+.text-header {
+  @include font-size-header;
+}
+
+.text-extra-header {
+  @include font-size-extra-header;
+}
+
+/* #endregion */
+
+/*#region text color */
+//text color white & black
+.text-white {
+  color: $color-white !important;
+}
+
+.text-black {
+  color: $color-black !important;
+}
+
+.text-dark {
+  color: $color-dark !important;
+}
+
+//text color red
+.text-red {
+  color: $color-red !important;
+}
+
+.text-light-red {
+  color: $color-light-red !important;
+}
+
+.text-dark-red {
+  color: $color-dark-red !important;
+}
+
+//text color pink
+.text-pink {
+  color: $color-pink !important;
+}
+
+.text-light-pink {
+  color: $color-light-pink !important;
+}
+
+.text-dark-pink {
+  color: $color-dark-pink !important;
+}
+
+//text color orange
+.text-orange {
+  color: $color-orange !important;
+}
+
+.text-light-orange {
+  color: $color-light-orange !important;
+}
+
+.text-dark-orange {
+  color: $color-dark-orange !important;
+}
+
+//text color yellow
+.text-yellow {
+  color: $color-yellow !important;
+}
+
+.text-light-yellow {
+  color: $color-light-yellow !important;
+}
+
+.text-dark-yellow {
+  color: $color-dark-yellow !important;
+}
+
+//text color green
+.text-green {
+  color: $color-green !important;
+}
+
+.text-light-green {
+  color: $color-light-green !important;
+}
+
+.text-dark-green {
+  color: $color-dark-green !important;
+}
+
+//text color blue
+.text-blue {
+  color: $color-blue !important;
+}
+
+.text-light-blue {
+  color: $color-light-blue !important;
+}
+
+.text-dark-blue {
+  color: $color-dark-blue !important;
+}
+
+//text color gray
+.text-gray {
+  color: $color-gray !important;
+}
+
+.text-light-gray {
+  color: $color-light-gray !important;
+}
+
+.text-dark-gray {
+  color: $color-dark-gray !important;
+}
+
+/*#endregion*/

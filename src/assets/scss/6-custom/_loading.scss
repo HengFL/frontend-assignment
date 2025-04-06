@@ -1,0 +1,32 @@
+/*#region initial loading*/
+.loading {
+  display: none;
+}
+
+.loading.show {
+  background-image: url(../../img/loading/rolling.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #e8e7e685;
+  background-size: 7rem;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: 9999;
+  overflow: auto;
+}
+
+.loading.show p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  color: #294558;
+  margin-bottom: 0;
+}
+
+/*#endregion*/

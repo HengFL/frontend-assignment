@@ -1,0 +1,61 @@
+/* #region nav-tabs */
+.nav-tabs {
+    border-bottom: 1px solid $color-light-blue !important;
+    gap: 5px;
+}
+
+.nav-tabs .nav-link {
+    color: $color-white !important;
+    background-color: $color-blue;
+    border: 0;
+    min-width: 120px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.nav-tabs .nav-link:hover:not(.nav-tabs .nav-link.active) {
+    background-color: $color-white;
+    color: $color-blue !important;
+}
+
+.nav-tabs .nav-link.active {
+    color: $color-blue !important;
+    background-color: $color-white;
+}
+
+.nav-tabs .nav-link.disabled:not(.nav-tabs .nav-link.active) {
+    background-color: $color-blue;
+    color: $color-light-gray !important;
+    opacity: .7;
+}
+
+.nav-tabs .nav-link.disabled.active {
+    color: $color-gray !important;
+}
+
+/* #endregion */
+
+/* #region nav-pills */
+.nav-pills .nav-link {
+    background-color: $color-blue;
+    color: $color-white;
+    border-radius: 5px;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.nav-pills .nav-link.active {
+    color: $color-blue !important;
+    background-color: $color-white;
+}
+
+.nav-pills .nav-link:hover:not(.nav-pills .nav-link.active) {
+    filter: saturate(200%);
+    background-color: $color-white;
+    color: $color-blue !important;
+}
+
+/* #endregion */

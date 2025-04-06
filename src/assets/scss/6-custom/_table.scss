@@ -1,0 +1,152 @@
+$table-border-radius: 0.375rem;
+$color-table-light-gray: #dee2e6;
+$color-table-disabled: #cfcfcf;
+
+/* #region initial table */
+.table tbody>tr>td {
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+  padding: 4px;
+}
+
+.table thead>tr>th {
+  vertical-align: middle;
+  text-align: center;
+  font-weight: normal;
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+  padding: 4px;
+}
+
+table tbody>tr>td.disabled {
+  background-color: $color-light-gray;
+  opacity: 0.7 !important;
+  z-index: 1;
+}
+
+.row-sticky {
+  z-index: 1;
+}
+
+/* #endregion */
+
+/* #region table-fixed-column */
+.table-fixed-column {
+  overflow: auto;
+  border-bottom: 1px solid $color-table-light-gray;
+  margin-bottom: 7px;
+}
+
+.table-fixed-column>table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table-fixed-column>table.table-bordered thead>tr>th {
+  border-top-width: 1px;
+  border-left-width: 0px;
+  border-color: $color-table-light-gray;
+}
+
+.table-fixed-column>table.table-bordered tbody>tr>td {
+  border-top-width: 1px;
+  border-left-width: 0px;
+  border-color: $color-table-light-gray;
+}
+
+.table-fixed-column>table.table-bordered tfoot>tr>th {
+  border-top-width: 1px;
+  border-left-width: 0px;
+  border-color: $color-table-light-gray;
+}
+
+.table-fixed-column>table.table-bordered tbody>tr:last-child>td {
+  border-bottom-width: 1px;
+}
+
+.table-fixed-column>table.table-bordered tfoot>tr>th {
+  border-bottom-width: 1px;
+}
+
+.table-fixed-column.table-bordered tfoot>tr:last-child>th {
+  border-top-width: 0px;
+}
+
+.table-fixed-column>table.table-bordered thead>tr>th:first-child,
+.table-fixed-column>table.table-bordered tbody>tr>td:first-child,
+.table-fixed-column>table.table-bordered tfoot>tr>th:first-child {
+  border-left-width: 1px;
+}
+
+/* #endregion */
+
+/* #region react-bootstrap-table */
+.react-bootstrap-table thead>tr>th {
+  vertical-align: middle;
+  text-align: center;
+  font-weight: normal;
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+  padding: 4px;
+}
+
+.react-bootstrap-table tbody>tr>td {
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+  padding: 4px;
+  vertical-align: top;
+}
+
+.react-bootstrap-table .table> :not(:first-child) {
+  border-top: 1px solid currentColor !important;
+}
+
+.react-bootstrap-table.table-responsive .table {
+  width: max-content;
+}
+
+.react-bootstrap-table table tbody tr.disabled {
+  opacity: 0.5 !important;
+}
+
+.react-bootstrap-table table tbody tr.disabled input {
+  pointer-events: none;
+}
+
+.react-bootstrap-table-pagination-list .pagination {
+  gap: 0.5rem !important;
+  margin-bottom: 5px;
+}
+
+.react-bootstrap-table-pagination-list .page-item .page-link {
+  border-radius: 5px !important;
+}
+
+.react-bs-table-no-data {
+  position: absolute;
+  padding-left: 50% !important;
+  border: 0;
+  --bs-table-accent-bg: white !important;
+}
+
+.react-bootstrap-table .table-KPI {
+  min-width: 1410px;
+}
+
+.react-bootstrap-table-editing-cell .alert.alert-danger {
+  @include font-size-extra-small;
+  margin-top: 7px;
+  padding: 2px;
+  background-color: $color-red;
+}
+
+.react-bootstrap-table-editing-cell .alert.alert-danger strong {
+  font-weight: normal !important;
+  color: $color-white !important;
+}
+
+.react-bootstrap-table tfoot tr {
+  border-bottom: 0 !important;
+}
+
+/* #endregion */

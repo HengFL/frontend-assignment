@@ -1,0 +1,41 @@
+/* #region donut-chart */
+.donut-chart-container {
+    font-family: 'Noto Sans';
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.donut-chart-inner-text {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    margin-top: -20px;
+    line-height: 19px;
+    text-align: center;
+    z-index: 1;
+}
+
+.donut-chart-inner-value {
+    font-size: 3em;
+    font-weight: 900;
+    color: #ef4a00;
+}
+
+.donut-chart-inner-value sup {
+    font-size: 1.75rem;
+}
+
+.donut-chart-inner-desc {
+    font-size: 1rem;
+    max-width: 30%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+
+/* #endregion */

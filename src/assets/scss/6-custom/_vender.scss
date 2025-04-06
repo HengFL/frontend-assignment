@@ -1,0 +1,137 @@
+/*#region bootstrap*/
+//breadcrumb
+.breadcrumb-item+.breadcrumb-item::before {
+  content: var(--bs-breadcrumb-divider, ">");
+  font-family: monospace;
+}
+
+.breadcrumb-item,
+.breadcrumb-item a {
+  color: $color-blue;
+  font-size: 14px;
+}
+
+.breadcrumb-item a:hover {
+  filter: saturate(200%);
+}
+
+.breadcrumb-item.active {
+  color: $color-dark !important;
+}
+
+.breadcrumb-item.disabled {
+  opacity: .7;
+}
+
+//fw
+.fw-bold,
+b {
+  font-weight: bold !important;
+}
+
+//badge
+.badge {
+  font-size: 90% !important;
+}
+
+//modal
+.modal-90w {
+  max-width: none !important;
+  width: 90%;
+}
+
+//collapse
+.collapsing {
+  transition-property: height, visibility;
+  transition-duration: .35s;
+}
+
+/*#endregion */
+
+/*#region sweetalert2*/
+.swal2-html-container {
+  @include font-size-layout;
+}
+
+.swal2-title {
+  @include font-size-title;
+  padding-top: 20px;
+}
+
+.swal2-footer {
+  padding-top: 10px !important;
+  margin-bottom: -10px !important;
+}
+
+.swal2-close {
+  font-size: 30px !important;
+}
+
+.swal2-close:focus {
+  box-shadow: none !important;
+}
+
+.swal2-textarea {
+  font-size: 14px;
+  padding: 7px !important;
+}
+
+.swal2-textarea:focus {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .06), 0 0 0 0px rgba(100, 150, 200, .5);
+}
+
+/* #endregion */
+
+/* #region scroll-to-top */
+.scroll-to-top {
+  right: 15px !important;
+  bottom: 15px !important;
+  font-size: 16px;
+  background-color: $color-blue !important;
+  color: $color-white;
+  border-radius: 25% !important;
+  z-index: 99;
+  width: 35px;
+  height: 35px;
+}
+
+.scroll-to-top:hover,
+.scroll-to-top:focus {
+  filter: saturate(200%);
+}
+
+/* #endregion */
+
+/* #region react-accessible-treeview */
+.tree {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.tree-node,
+.tree-node-group {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tree-branch-wrapper,
+.tree-node__leaf {
+  outline: none;
+}
+
+.tree-node--focused {
+  display: block;
+}
+
+.tree-node__branch {
+  display: block;
+}
+
+.tree-node {
+  cursor: pointer;
+}
+
+/* #endregion */

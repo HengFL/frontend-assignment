@@ -1,0 +1,203 @@
+@mixin initial-btn {
+
+  &:hover,
+  &:focus {
+    filter: saturate(200%);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+  }
+}
+
+@mixin initial-btn-text {
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+    filter: saturate(200%);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+  }
+}
+
+
+/* #region initial btn */
+.btn {
+  border-radius: 0.4rem;
+  min-width: 90px;
+}
+
+.btn:focus {
+  box-shadow: none !important;
+}
+
+/* #endregion */
+
+/* #region btn color */
+//white
+.btn-white {
+  @include initial-btn;
+  border-color: $color-white !important;
+  color: $color-dark !important;
+  background-color: $color-white !important;
+}
+
+//black
+.btn-black {
+  @include initial-btn;
+  border-color: $color-black !important;
+  color: $color-white !important;
+  background-color: $color-black !important;
+}
+
+//dark
+.btn-dark {
+  @include initial-btn;
+  border-color: $color-dark !important;
+  color: $color-white !important;
+  background-color: $color-dark !important;
+}
+
+//red
+.btn-red {
+  @include initial-btn;
+  border-color: $color-red !important;
+  color: $color-white !important;
+  background-color: $color-red !important;
+}
+
+//pink
+.btn-pink {
+  @include initial-btn;
+  border-color: $color-pink !important;
+  color: $color-white !important;
+  background-color: $color-pink !important;
+}
+
+//orange
+.btn-orange {
+  @include initial-btn;
+  border-color: $color-orange !important;
+  color: $color-white !important;
+  background-color: $color-orange !important;
+}
+
+//yellow
+.btn-yellow {
+  @include initial-btn;
+  border-color: $color-yellow !important;
+  color: $color-white !important;
+  background-color: $color-yellow !important;
+}
+
+//green
+.btn-green {
+  @include initial-btn;
+  border-color: $color-green !important;
+  color: $color-white !important;
+  background-color: $color-green !important;
+}
+
+//blue
+.btn-blue {
+  @include initial-btn;
+  border-color: $color-blue !important;
+  color: $color-white !important;
+  background-color: $color-blue !important;
+}
+
+//gray
+.btn-gray {
+  @include initial-btn;
+  border-color: $color-gray !important;
+  color: $color-white !important;
+  background-color: $color-gray !important;
+}
+
+/* #endregion */
+
+/* #region btn text */
+//white
+.btn-text-white {
+  @include initial-btn-text;
+  text-decoration: none;
+  color: $color-white !important;
+  cursor: pointer;
+}
+
+//black
+.btn-text-black {
+  @include initial-btn-text;
+  text-decoration: none;
+  color: $color-black !important;
+  cursor: pointer;
+}
+
+//dark
+.btn-text-dark {
+  @include initial-btn-text;
+  text-decoration: none;
+  color: $color-dark !important;
+  cursor: pointer;
+}
+
+//red
+.btn-text-red {
+  @include initial-btn-text;
+  text-decoration: none;
+  color: $color-red !important;
+  cursor: pointer;
+}
+
+//pink
+.btn-text-pink {
+  @include initial-btn-text;
+  text-decoration: none;
+  color: $color-pink !important;
+  cursor: pointer;
+}
+
+//orange
+.btn-text-orange {
+  @include initial-btn-text;
+  text-decoration: none;
+  color: $color-orange !important;
+  cursor: pointer;
+}
+
+//yellow
+.btn-text-yellow {
+  @include initial-btn-text;
+  text-decoration: none;
+  color: $color-yellow !important;
+  cursor: pointer;
+}
+
+//green
+.btn-text-green {
+  @include initial-btn-text;
+  text-decoration: none;
+  color: $color-green !important;
+  cursor: pointer;
+}
+
+//blue
+.btn-text-blue {
+  @include initial-btn-text;
+  text-decoration: none;
+  color: $color-blue !important;
+  cursor: pointer;
+}
+
+//gray
+.btn-text-gray {
+  @include initial-btn-text;
+  text-decoration: none;
+  color: $color-gray !important;
+  cursor: pointer;
+}
+
+/* #endregion */
