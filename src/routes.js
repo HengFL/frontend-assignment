@@ -5,7 +5,7 @@ import DashboardLayout from "./layouts/Dashboard";
 /* todoList */
 import TodoList from "./pages/todoList";
 /* users */
-import Users from "./pages/users";
+// import Users from "./pages/users";
 
 const routes = [
   {
@@ -30,16 +30,16 @@ const routes = [
       },
     ],
   },
-  {
-    path: "users",
-    element: <DashboardLayout />,
-    children: [
-      {
-        path: "",
-        element: <Users />,
-      },
-    ],
-  },
+  // {
+  //   path: "users",
+  //   element: <DashboardLayout />,
+  //   children: [
+  //     {
+  //       path: "",
+  //       element: <Users />,
+  //     },
+  //   ],
+  // },
 ];
 
 export default routes;

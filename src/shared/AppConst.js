@@ -7,9 +7,9 @@ const versionPrd = '0.0.1';
 
 const dev = {
     BASE_URL: '/frontend-assignment',
-    APP_NAME: 'REACT',
-    APP_SHORT_NAME: 'REACT',
-    APP_CODE: 'REACT',
+    APP_NAME: 'Assignment',
+    APP_SHORT_NAME: 'Assignment',
+    APP_CODE: 'Assignment',
     APP_VERSION: versionDev,
     ENV: env,
     ENV_DESC: 'สำหรับทดสอบ Development',
@@ -20,9 +20,9 @@ const dev = {
 
 const prd = {
     BASE_URL: '/frontend-assignment',
-    APP_NAME: 'REACT',
-    APP_SHORT_NAME: 'REACT',
-    APP_CODE: 'REACT',
+    APP_NAME: 'Assignment',
+    APP_SHORT_NAME: 'Assignment',
+    APP_CODE: 'Assignment',
     APP_VERSION: versionPrd,
     ENV: env,
     ENV_DESC: "",
