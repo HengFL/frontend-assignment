@@ -26,7 +26,7 @@ function TodoListIndex() {
     /* functions */
     const handleMoveToCategory = (item) => {
         setMainItems(prev => prev.filter(i => i.name !== item.name));
-        
+
         if (item.type === 'Fruit') {
             setFruitItems(prev => [...prev, item]);
         } else {
@@ -47,6 +47,10 @@ function TodoListIndex() {
     return (
         <div className="row justify-content-center">
             <div className="col-6">
+                <p className="mb-2">
+                    <span className="fw-bold">Source Code : </span>
+                    <a href="https://github.com/HengFL/frontend-assignment.git" target="_blank" className="btn-text-blue">https://github.com/HengFL/frontend-assignment.git</a>
+                </p>
                 <div className="row">
                     <div className="col-4">
                         <MainList items={mainItems} onItemClick={handleMoveToCategory} />
