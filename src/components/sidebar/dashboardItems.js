@@ -6,18 +6,11 @@
 const pagesSection = [
   {
     href: "/",
-    icon: 'fa-solid fa-clipboard-list',
-    title: "Todo List",
+    icon: 'fa-solid fa-home',
+    title: "Home",
     type: 'NORMAL',
     isLogin: false,
   },
-  // {
-  //   href: "/users",
-  //   icon: 'fa-solid fa-user',
-  //   title: "Users",
-  //   type: 'NORMAL',
-  //   isLogin: false,
-  // },
 ];
 
 const navItems = [
