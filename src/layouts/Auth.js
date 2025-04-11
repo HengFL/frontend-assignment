@@ -1,10 +1,10 @@
 import React from "react";
+/* libs */
 import { Outlet } from "react-router-dom";
-
 import { Col, Container, Row } from "react-bootstrap";
-
+/* components */
 import Main from "../components/Main";
-import Settings from "../components/Settings";
+// import Settings from "../components/Settings";
 
 const Auth = ({ children }) => (
   <React.Fragment>
@@ -20,7 +20,7 @@ const Auth = ({ children }) => (
         </Row>
       </Container>
     </Main>
-    <Settings />
+    {/* <Settings /> */}
   </React.Fragment>
 );
 

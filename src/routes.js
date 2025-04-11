@@ -12,12 +12,10 @@ import Home from "./pages/home";
 const routes = [
   {
     path: "/",
-    // element: <AuthLayout />,
     element: <DashboardLayout />,
     children: [
       {
         path: "",
-        // element: <Login />,
         element: <Home />,
       },
     ],

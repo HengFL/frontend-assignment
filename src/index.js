@@ -2,17 +2,18 @@ import 'react-app-polyfill/ie9';
 import 'react-app-polyfill/ie11';
 import 'react-app-polyfill/stable';
 import React from "react";
+/* libs */
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 /* src */
 import App from "./App";
 /* utils */
 import reportWebVitals from "./utils/reportWebVitals";
+import common from 'utils/common';
 /* css */
 import "react-datepicker/dist/react-datepicker.css";
 import 'animate.css';
 import './assets/scss/custom.scss';
-import common from 'utils/common';
 
 ReactDOM.render(
   <BrowserRouter basename={common.baseURL()}>

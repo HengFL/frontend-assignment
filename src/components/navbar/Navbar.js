@@ -19,16 +19,16 @@ const NavbarComponent = () => {
   const [pageTitle, setPageTitle] = React.useState('');
 
   /* useEffect */
-  React.useEffect(() => {
-    // console.log("document.title ", document.getElementsByTagName("title"))
-    setTimeout(() => {
-      let textTitle = document.getElementsByTagName("title")[0]?.text;
-      if (textTitle) {
-        textTitle = textTitle?.replace(`${AppConst.APP_SHORT_NAME} - `, '')
-        setPageTitle(textTitle);
-      }
-    }, 10)
-  }, [location]);
+  // React.useEffect(() => {
+  //   // console.log("document.title ", document.getElementsByTagName("title"))
+  //   setTimeout(() => {
+  //     let textTitle = document.getElementsByTagName("title")[0]?.text;
+  //     if (textTitle) {
+  //       textTitle = textTitle?.replace(`${AppConst.APP_SHORT_NAME} - `, '')
+  //       setPageTitle(textTitle);
+  //     }
+  //   }, 10)
+  // }, [location]);
 
   return (
     <Navbar variant="light" expand className="navbar-bg shadow">
@@ -40,7 +40,7 @@ const NavbarComponent = () => {
       >
         <i className="hamburger align-self-center" />
       </span>
-      <span className="text-title text-dark fw-bold mx-1">{pageTitle}</span>
+      {/* <span className="text-title text-dark fw-bold mx-1">{pageTitle}</span> */}
 
       {/*<Form inline="true" className="d-none d-sm-inline-block">
         <InputGroup className="input-group-navbar">

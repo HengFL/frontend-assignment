@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+/* modules */
 import ItemButton from './ItemButton';
 
 const ItemsColumn = ({ type, items, onItemClick, autoMoveBack }) => {

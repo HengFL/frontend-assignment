@@ -1,4 +1,5 @@
 import React from 'react';
+/* modules */
 import ItemButton from './ItemButton';
 
 const MainList = ({ items, onItemClick }) => {

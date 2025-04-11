@@ -5,6 +5,7 @@
   "//": [
     "homepage",
     "localhost = '/'",
+    "dev = '/'",
     "prd = 'https://HengFL.github.io/frontend-assignment'"
   ],
   "homepage": "https://HengFL.github.io/frontend-assignment",

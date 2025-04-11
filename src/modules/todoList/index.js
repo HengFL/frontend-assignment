@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+/* modules */
 import MainList from './MainList';
 import ItemsColumn from './ItemsColumn';
 
@@ -46,12 +47,12 @@ function TodoListIndex() {
 
     return (
         <div className="row justify-content-center">
-            <div className="col-6">
+            <div className="col-12 col-sm-6">
                 <p className="mb-2">
                     <span className="fw-bold">Source Code : </span>
                     <a href="https://github.com/HengFL/frontend-assignment.git" target="_blank" className="btn-text-blue">https://github.com/HengFL/frontend-assignment.git</a>
                 </p>
-                <div className="row">
+                <div className="row g-3">
                     <div className="col-4">
                         <MainList items={mainItems} onItemClick={handleMoveToCategory} />
                     </div>

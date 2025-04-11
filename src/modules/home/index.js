@@ -1,7 +1,7 @@
 import React from "react";
 /* bootstrap */
 import { Nav, Tab, Card } from "react-bootstrap";
-/* components */
+/* modules */
 import TodoList from "./../todoList";
 import Users from "./../users";
 
@@ -19,7 +19,7 @@ function Navtab(props) {
         <Card className="p-0 w-100 bg-transparent shadow-none">
             <Tab.Container defaultActiveKey={navTabActive}>
                 <div className="row justify-content-center">
-                    <div className="col-6 mb-2">
+                    <div className="col-12 col-sm-6 mb-2">
                         <Nav fill onSelect={(key) => handleSelectNavTab(key)} className="nav w-100 gap-2">
                             <Nav.Item>
                                 <Nav.Link

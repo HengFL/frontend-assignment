@@ -1,4 +1,5 @@
 import React from "react";
+/* libs */
 import { useRoutes } from "react-router-dom";
 import { Provider } from "react-redux";
 import { HelmetProvider, Helmet } from "react-helmet-async";
@@ -49,7 +50,6 @@ const App = () => {
           </SidebarProvider>
         </ThemeProvider>
       </Provider>
-
     </HelmetProvider>
   );
 };

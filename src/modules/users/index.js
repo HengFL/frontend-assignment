@@ -4,7 +4,7 @@ function UsersIndex() {
 
     return (
         <div className="row justify-content-center">
-            <div className="col-6">
+            <div className="col-12 col-sm-6">
                 <p className="mb-2">
                     <span className="fw-bold">Source Code : </span>
                     <a href="https://github.com/HengFL/frontend-assignment-typescript.git" target="_blank" className="btn-text-blue">https://github.com/HengFL/frontend-assignment-typescript.git</a>

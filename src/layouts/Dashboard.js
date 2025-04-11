@@ -8,13 +8,10 @@ import Main from "../components/Main";
 import Navbar from "../components/navbar/Navbar";
 import Content from "../components/Content";
 // import Footer from "../components/Footer";
-import Settings from "../components/Settings";
+// import Settings from "../components/Settings";
 import dashboardItems from "../components/sidebar/dashboardItems";
-/* utils */
-import role from "utils/role";
 
 const Dashboard = ({ children }) => {
-  // let items = role.getMenuItem(dashboardItems);
   let items = dashboardItems;
   return (
     <React.Fragment>
@@ -29,7 +26,7 @@ const Dashboard = ({ children }) => {
           {/* <Footer />*/}
         </Main>
       </Wrapper>
-      <Settings />
+      {/* <Settings /> */}
     </React.Fragment>
   );
 }
