@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/frontend-assignment/static/css/main.40d2547c.chunk.css",
-    "main.js": "/frontend-assignment/static/js/main.670b3b21.chunk.js",
-    "main.js.map": "/frontend-assignment/static/js/main.670b3b21.chunk.js.map",
-    "runtime-main.js": "/frontend-assignment/static/js/runtime-main.e2e96b46.js",
-    "runtime-main.js.map": "/frontend-assignment/static/js/runtime-main.e2e96b46.js.map",
+    "main.js": "/frontend-assignment/static/js/main.70a051b8.chunk.js",
+    "main.js.map": "/frontend-assignment/static/js/main.70a051b8.chunk.js.map",
+    "runtime-main.js": "/frontend-assignment/static/js/runtime-main.149e4b53.js",
+    "runtime-main.js.map": "/frontend-assignment/static/js/runtime-main.149e4b53.js.map",
     "static/css/2.734f7b23.chunk.css": "/frontend-assignment/static/css/2.734f7b23.chunk.css",
-    "static/js/2.cda32bc8.chunk.js": "/frontend-assignment/static/js/2.cda32bc8.chunk.js",
-    "static/js/2.cda32bc8.chunk.js.map": "/frontend-assignment/static/js/2.cda32bc8.chunk.js.map",
-    "static/js/3.9059494a.chunk.js": "/frontend-assignment/static/js/3.9059494a.chunk.js",
-    "static/js/3.9059494a.chunk.js.map": "/frontend-assignment/static/js/3.9059494a.chunk.js.map",
+    "static/js/2.16a15f0e.chunk.js": "/frontend-assignment/static/js/2.16a15f0e.chunk.js",
+    "static/js/2.16a15f0e.chunk.js.map": "/frontend-assignment/static/js/2.16a15f0e.chunk.js.map",
+    "static/js/3.c5544783.chunk.js": "/frontend-assignment/static/js/3.c5544783.chunk.js",
+    "static/js/3.c5544783.chunk.js.map": "/frontend-assignment/static/js/3.c5544783.chunk.js.map",
     "index.html": "/frontend-assignment/index.html",
     "static/css/2.734f7b23.chunk.css.map": "/frontend-assignment/static/css/2.734f7b23.chunk.css.map",
     "static/css/main.40d2547c.chunk.css.map": "/frontend-assignment/static/css/main.40d2547c.chunk.css.map",
-    "static/js/2.cda32bc8.chunk.js.LICENSE.txt": "/frontend-assignment/static/js/2.cda32bc8.chunk.js.LICENSE.txt",
+    "static/js/2.16a15f0e.chunk.js.LICENSE.txt": "/frontend-assignment/static/js/2.16a15f0e.chunk.js.LICENSE.txt",
     "static/media/custom.scss": "/frontend-assignment/static/media/rolling.e2558f14.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.e2e96b46.js",
+    "static/js/runtime-main.149e4b53.js",
     "static/css/2.734f7b23.chunk.css",
-    "static/js/2.cda32bc8.chunk.js",
+    "static/js/2.16a15f0e.chunk.js",
     "static/css/main.40d2547c.chunk.css",
-    "static/js/main.670b3b21.chunk.js"
+    "static/js/main.70a051b8.chunk.js"
   ]
 }
